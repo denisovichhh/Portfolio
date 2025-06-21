@@ -531,6 +531,13 @@ input::-webkit-inner-spin-button {
         width: 52vw;
     }
 
+    .favorite-info img {
+        width: 60vw;
+        max-width: 300px;
+        border-radius: 3em;
+        object-fit: cover;
+    }
+
     .contact form {
         flex-direction: column;
     }
