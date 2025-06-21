@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">
+            <span class="gradient-text">Denisovichhh.</span>
+        </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#favorites">Favorites</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <!-- <a href="#contact" class="gradient-button btn">Contact Me</a> -->
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span class="gradient-text">Dennis</span></h1>
+            <h3>
+                Im a <span class="gradient-text">Student</span>
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+            </p>
+
+            <div class="social-icons">
+                <a href="#">
+                    <i class='bx bxl-facebook-circle'></i>
+                </a>
+                <a href="#">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a href="#">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="img.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2>About <span class="gradient-text">Me</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="favorites" id="favorites">
+        <h2 class="heading">Favorites</h2>
+
+        <div class="favorites-container">
+            <div class="favorite-box">
+                <div class="favorite-info">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h4>Bee Swarm Simulator</h4>
+                    <img src="bsslogo.png">
+                    <a href="https://www.roblox.com/games/1537690962/Bee-Swarm-Simulator" target="_blank"
+                        class="btn">View</a>
+                </div>
+            </div>
+
+            <div class="favorite-box">
+                <div class="favorite-info">
+                    <h4>Iron Man</h4>
+                    <img src="https://preview.redd.it/qz37lz7819x21.jpg?width=1080&crop=smart&auto=webp&s=65b8eca21469f048f163df4cac1cda3637ebcff5" alt="">
+                </div>
+            </div>
+
+            <div class="favorite-box">
+                <div class="favorite-info">
+                    <h4>To The Bone</h4>
+                    <img src="https://i.scdn.co/image/ab67616d0000b2733881062a98962138ff0e1ae7">
+                    <audio id="music" src="music.mp3" type="MP3">
+                    </audio>
+                    <div class="audio-control">
+                        <i class="bx bx-play btn" id="player"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="projects-box">
+            <div class="project-card">
+                <img src="https://tr.rbxcdn.com/180DAY-742061d172e0a614be50852bbd399e2e/352/352/Image/Png/noFilter"
+                    alt="">
+                <h3>Easy Colorful Obby</h3>
+                <p>I created this game on Roblox, and it took me about a month.</p>
+
+                <a href="https://www.roblox.com/games/106443881034794/Easy-Colorful-Obby" target="_blank"
+                    class="btn">View</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact Me</h2>
+
+        <form>
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea placeholder="Your Message" cols="30" rows="10"></textarea>
+                <a href="#" class="btn">Send Message</button></a>
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#">
+                <i class='bx bxl-facebook-circle'></i>
+            </a>
+            <a href="#">
+                <i class='bx bxl-github'></i>
+            </a>
+            <a href="#">
+                <i class='bx bxl-instagram'></i>
+            </a>
+             <a href="#home">
+                <i class='bx bx-caret-up'></i>
+            </a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#favorites">Favorites</a>
+            </li>
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            © Denisovichhh | All Rights Reserved
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
