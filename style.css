@@ -427,6 +427,11 @@ section {
     color: var(--main-color);
 }
 
+.contact .input-box input::placeholder,
+.contact textarea::placeholder {
+    color: var(--secondary-color);
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
