@@ -533,7 +533,6 @@ input::-webkit-inner-spin-button {
 
     .favorite-info img {
         width: 60vw;
-        max-width: 300px;
         border-radius: 3em;
         object-fit: cover;
     }
